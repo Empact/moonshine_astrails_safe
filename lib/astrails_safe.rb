@@ -12,10 +12,9 @@ module AstrailsSafe
   
   # setting defaults to make template a little cleaner
   def astrails_safe(options = {})
-    
+
     options[:local] ||= {}
-    options[:mysql] ||= {}
-    
+
     # define the recipe
     # options specified with the configure method will be 
     # automatically available here in the options hash.
